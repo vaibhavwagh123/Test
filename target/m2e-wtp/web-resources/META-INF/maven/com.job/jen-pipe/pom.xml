@@ -18,7 +18,6 @@
 	
 	<properties>
 		<java.version>11</java.version>
-		 <checkstyle.version>2.17</checkstyle.version>
 	</properties>
 	<dependencies>
 	
@@ -40,16 +39,12 @@
 	</dependencies>
 	
 	<build>
+		<finalName>SpringBootApp</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-checkstyle-plugin</artifactId>
-                <version>${checkstyle.version}</version>
-            </plugin>
 		</plugins>
 	</build>
 </project>
