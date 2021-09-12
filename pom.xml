@@ -12,8 +12,10 @@
 	<groupId>com.job</groupId>
 	<artifactId>jen-pipe</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>jen-pipe</name>
+	<name>test</name>
 	<description>Demo project for Jenkins Pipeline</description>
+	<packaging>war</packaging>
+	
 	<properties>
 		<java.version>11</java.version>
 		 <checkstyle.version>2.17</checkstyle.version>
